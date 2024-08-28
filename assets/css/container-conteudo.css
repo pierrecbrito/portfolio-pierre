@@ -1,0 +1,29 @@
+#container-conteudo {
+    width: calc(100% - 400px - 2em);
+    position: absolute;
+    right: 0;
+    top: 1em;
+}
+
+.lista-secoes {
+    display: flex;
+    flex-direction: row;
+    justify-content: start
+}
+
+.secao {
+    margin-right: 1em;
+    padding: 0.5em 0.8em;
+    border-radius: 5px;
+    background-color: rgba(35, 35, 35, 0.5);
+    transition: .5s;
+    cursor: pointer;
+}
+
+.secao a {
+    text-decoration: none;
+}
+
+.secao:hover {
+    background-color: #00F65C;
+}
