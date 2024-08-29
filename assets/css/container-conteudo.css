@@ -27,3 +27,12 @@
 .secao:hover {
     background-color: #00F65C;
 }
+
+.titulo-secao {
+    width: fit-content;
+    border-bottom: 1px solid #00F65C;
+    font-size: 1.2em;
+    margin-bottom: 1em;
+    margin-top: 1em;
+    font-weight: 500;
+}
