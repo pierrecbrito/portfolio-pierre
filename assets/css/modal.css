@@ -1,0 +1,51 @@
+.modal {
+    z-index: 11;
+    max-width: 950px !important;
+    padding: 1.5em !important;
+    background-color: #000 !important;
+    box-shadow: rgba(40, 40, 40, 0.30) 0px 5px 15px !important;
+}
+
+.modal-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.modal-galeria {
+    max-width: 500px;
+}
+
+.modal-imagem {
+    margin-bottom: 1em;
+    transition: 0.4s;
+}
+
+.modal-imagem:hover {
+    transform: scale(1.5);
+}
+
+.modal-descricao {
+    padding: 0 1.5em 1.5em 1.5em;
+}
+
+.modal-titulo {
+    font-weight: 800;
+    font-size: 1.1em;
+}
+
+.modal-paragrafo {
+    margin-top: 1em;
+    line-height: 1.7em !important;
+    text-align: justify;
+}
+
+.btn-link {
+    color: #00F65C;
+    text-decoration: none;
+    font-weight: 700;
+    cursor: pointer;
+    text-align: center;
+    border-radius: 10px;
+    display: block;
+    margin-top: 1em;
+}
