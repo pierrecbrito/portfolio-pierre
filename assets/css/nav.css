@@ -1,0 +1,21 @@
+.nav {
+    text-align: center;
+    width: 100%;
+    padding: 18px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu-links {
+    max-width: 280px;
+    border-radius: 5px;
+    width: fit-content;
+    padding: 8px 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 25px;
+    align-items: center;
+    background-color: rgba(35, 35, 35, 0.4);
+}
