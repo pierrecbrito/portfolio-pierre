@@ -2,6 +2,10 @@
     width: 100%;
     max-width: 950px;
     margin: 0 auto;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    gap: 75px;
 }
 
 .lista-secoes {

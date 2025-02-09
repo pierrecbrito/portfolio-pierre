@@ -1,0 +1,40 @@
+#section-home {
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+}
+
+#title-software {
+    font-size: 110px;
+    font-weight: bold;
+}
+
+#title-engineer {
+    font-size: 90px;
+    font-weight: bold;
+    color: #80848E;
+}
+
+#text-description {
+    max-width: 400px;
+    text-align: justify;
+}
+
+.metric {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    max-width: 90px;
+}
+
+.metric-value {
+    font-size: 3.5em;
+    font-weight: bold;
+}
+
+#container-metrics {
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+    justify-content: start;
+}

@@ -1,6 +1,6 @@
 
 #apresentacao-lateral {
-    background-color: rgba(35, 35, 35, 0.3);
+    background-color: rgba(35, 35, 35, 0.22);
     width: 100%;
     max-width: 300px;
     border-radius: 10px 10px 10px 10px;
@@ -10,8 +10,9 @@
     justify-content: start;
     flex-direction: column;
     gap: 24px;
-    position: relative;
     z-index: 6;
+    position: sticky;
+    left: 0;
 }
 
 

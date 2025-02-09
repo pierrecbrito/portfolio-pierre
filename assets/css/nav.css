@@ -1,7 +1,7 @@
 .nav {
     text-align: center;
     width: 100%;
-    padding: 18px 0;
+    padding: 32px 0;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -9,13 +9,55 @@
 
 .menu-links {
     max-width: 280px;
-    border-radius: 5px;
+    border-radius: 6px;
     width: fit-content;
-    padding: 8px 25px;
+    padding: 4px 18px;
     display: flex;
     flex-direction: row;
     justify-content: center;
     gap: 25px;
     align-items: center;
     background-color: rgba(35, 35, 35, 0.4);
+}
+
+.menu-link {
+    position: relative;
+}
+
+.tooltip {
+    position: absolute;
+    top: 100%; /* Começa logo abaixo do ícone */
+    left: 50%;
+    transform: translateX(-50%) translateY(-10px); /* Inicia 10px acima */
+    background: #333;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 4px;
+    font-size: 0.8em;
+    white-space: nowrap;
+    opacity: 0;
+    visibility: hidden;
+    transition: 
+        opacity 0.3s ease-out,
+        transform 0.3s ease-out;
+    margin-top: 8px; /* Espaço entre o ícone e o tooltip */
+}
+
+/* Seta apontando para cima (opcional) */
+.tooltip::before {
+    content: "";
+    position: absolute;
+    bottom: 100%; /* Posiciona a seta acima do tooltip */
+    left: 50%;
+    transform: translateX(-50%);
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent transparent #333 transparent; /* Seta para cima */
+}
+
+/* Mostra o tooltip no hover */
+.menu-link:hover .tooltip {
+    opacity: 1;
+    visibility: visible;
+    transform: translateX(-50%) translateY(0); /* Move para a posição final (0px) */
 }
