@@ -1,25 +1,19 @@
 
 #apresentacao-lateral {
-    background-color: rgba(35, 35, 35, 0.35);
+    background-color: rgba(35, 35, 35, 0.3);
     width: 100%;
-    max-width: 320px;
+    max-width: 300px;
     border-radius: 10px 10px 10px 10px;
-    padding: 16px;
+    padding: 24px 16px;
     display: flex;
     align-items: center;
     justify-content: start;
     flex-direction: column;
+    gap: 24px;
     position: relative;
     z-index: 6;
 }
 
-
-#apresentacao-pessoal {
-    font-weight: 500;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
 
 #container-foto {
     width: 100%;
@@ -39,7 +33,6 @@
 }
 
 #titulo {
-    margin-bottom: 0.8em;
     font-weight: 900;
     font-size: 1.3em;
 }
@@ -57,9 +50,9 @@
 
 .icone-social {
     font-size: 12px;
-    fill: #0057FF;
+    fill: #FFFFFF;
     margin-right: 0.5em;
-    color: #0057FF;
+    color: #FFFFFF;
 }
 
 #copyright {
