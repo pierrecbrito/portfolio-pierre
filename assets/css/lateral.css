@@ -13,8 +13,8 @@
     z-index: 6;
     position: sticky;
     left: 0;
+    top: 60px;
 }
-
 
 #container-foto {
     width: 100%;
