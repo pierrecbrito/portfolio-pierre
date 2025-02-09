@@ -1,23 +1,29 @@
 
 #apresentacao-lateral {
-    height: 100%;
-    background-color: rgba(35, 35, 35, 0.2);
+    background-color: rgba(35, 35, 35, 0.35);
     width: 100%;
-    border-radius: 10px;
-    padding: 1em;
+    max-width: 320px;
+    border-radius: 10px 10px 10px 10px;
+    padding: 16px;
     display: flex;
     align-items: center;
     justify-content: start;
     flex-direction: column;
     position: relative;
+    z-index: 6;
 }
+
 
 #apresentacao-pessoal {
     font-weight: 500;
-    padding: 1em;
     display: flex;
-    flex-direction: row;
-    align-items: start;
+    flex-direction: column;
+    align-items: center;
+}
+
+#container-foto {
+    width: 100%;
+    text-align: center;
 }
 
 #foto-perfil {
@@ -26,30 +32,8 @@
     border-radius: 10px;
 }
 
-#container-foto {
-    min-width: 190px;
-    width: fit-content;
-    height: fit-content;
-    padding: 1em;
-    background-color: #00F65C;
-    border-radius: 40% 80% 40% 80%;
-    animation: 7s  1s infinite reverse both running example;
-}
-
-@keyframes example {
-    0% {
-        border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
-    }
-    50% {
-        border-radius: 60% 30% 70% 40% / 50% 60% 30% 60%;
-    }
-    100% { 
-        border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
-    }
-  }
-
 #foto-perfil::before {
-    background-color: #00F65C;
+    background-color: #0057FF;
     height: 50%;
     width: 50%;
 }
@@ -67,14 +51,15 @@
 }
 
 #container-socials {
-    position: absolute;
-    right: 1em;
+    display: flex;
+    gap: 6px;
 }
 
 .icone-social {
-    font-size: 25px;
-    fill: #00F65C;
+    font-size: 12px;
+    fill: #0057FF;
     margin-right: 0.5em;
+    color: #0057FF;
 }
 
 #copyright {

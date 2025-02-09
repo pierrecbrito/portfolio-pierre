@@ -1,6 +1,6 @@
 #container-conteudo {
     width: 100%;
-    max-width: 800px;
+    max-width: 1200px;
     margin: 0 auto;
 }
 
@@ -37,7 +37,7 @@
 }
 
 #container-pessoa-conteudo {
-    padding: 1.5em;
+    padding: 1.5em 1.5em 0 1.5em;
 }
 
 #localizacao {
