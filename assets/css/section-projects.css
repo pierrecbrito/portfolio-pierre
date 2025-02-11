@@ -7,7 +7,7 @@
 .projects {
     display: flex;
     flex-direction: column;
-    gap: 16px;
+    gap: 12px;
 }
 
 .project {
@@ -17,6 +17,7 @@
     padding: 32px;
     border-radius: 10px;
     cursor: pointer;
+    align-items: start;
 }
 
 .project:hover {
@@ -38,6 +39,9 @@
 
 .project-description {
     text-align: justify;
+    font-size: 1em;
+    line-height: 1.5em;
+    color: rgb(153, 143, 143);
 }
 
 .project-icon {
@@ -47,4 +51,18 @@
 
 .project:hover .project-icon {
     transform: translateX(5px) translateY(-5px);
+}
+
+.technologies {
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+}
+
+.technology {
+    padding: 4px 8px;
+    border-radius: 5px;
+    background-color: rgba(35, 35, 35, 0.5);
+    color: #FFFFFF;
+    font-size: 0.8em;
 }
