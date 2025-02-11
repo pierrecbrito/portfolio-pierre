@@ -4,6 +4,12 @@
     gap: 24px;
 }
 
+.projects {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
 .project {
     display: flex;
     flex-direction: row;
