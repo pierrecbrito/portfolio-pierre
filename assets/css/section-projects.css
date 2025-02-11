@@ -33,3 +33,12 @@
 .project-description {
     text-align: justify;
 }
+
+.project-icon {
+    position: relative;
+    transition: 1s;
+}
+
+.project:hover .project-icon {
+    transform: translateX(5px) translateY(-5px);
+}
