@@ -1,0 +1,10 @@
+#advice {
+    background-color: rgba(35, 35, 35, 0.22);
+    padding: 50px 0;
+    text-align: center;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+}
