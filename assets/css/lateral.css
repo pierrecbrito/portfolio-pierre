@@ -2,14 +2,14 @@
 #apresentacao-lateral {
     background-color: rgba(35, 35, 35, 0.22);
     width: 100%;
-    max-width: 300px;
+    max-width: 380px;
     border-radius: 10px 10px 10px 10px;
     padding: 24px 16px;
     display: flex;
     align-items: center;
     justify-content: start;
     flex-direction: column;
-    gap: 24px;
+    gap: 36px;
     z-index: 6;
     position: sticky;
     left: 0;
@@ -23,7 +23,7 @@
 
 #foto-perfil {
     width: 100%;
-    max-width: 200px;
+    max-width: 265px;
     border-radius: 10px;
 }
 
