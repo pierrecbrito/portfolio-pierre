@@ -37,6 +37,12 @@
     border-radius: 10px;
 }
 
+.project-title {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #FFFFFF;
+}
+
 .project-description {
     text-align: justify;
     font-size: 1em;
