@@ -56,6 +56,10 @@
     color: #FFFFFF;
 }
 
+#description {
+    max-width: 255px;
+}
+
 #copyright {
     margin-top: 80px;
     font-size: 0.8em;
