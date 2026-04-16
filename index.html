@@ -4,52 +4,58 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <title>Pierre Brito | Desenvolvedor </title>
+        <title data-i18n="title">Pierre Brito | Desenvolvedor</title>
         <link rel="icon" href="./assets/img/favicon.png" type="image/x-icon">
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="./assets/css/reset.css">
-        <link rel="stylesheet" href="./assets/css/style.css">
-        <link rel="stylesheet" href="./assets/css/lateral.css">
-        <link rel="stylesheet" href="./assets/css/container-conteudo.css">
-        <link rel="stylesheet" href="./assets/css/modal.css">
-        <link rel="stylesheet" href="./assets/css/nav.css">
-        <link rel="stylesheet" href="./assets/css/section-home.css">
-        <link rel="stylesheet" href="./assets/css/section-projects.css">
-        <link rel="stylesheet" href="./assets/css/section-advice.css">
-        <link rel="stylesheet" href="./assets/css/section-education.css">
+        <link rel="stylesheet" href="./assets/css/reset.css?v=1.0.23">
+        <link rel="stylesheet" href="./assets/css/style.css?v=1.0.23">
+        <link rel="stylesheet" href="./assets/css/lateral.css?v=1.0.23">
+        <link rel="stylesheet" href="./assets/css/container-conteudo.css?v=1.0.23">
+        <link rel="stylesheet" href="./assets/css/modal.css?v=1.0.23">
+        <link rel="stylesheet" href="./assets/css/nav.css?v=1.0.23">
+        <link rel="stylesheet" href="./assets/css/section-home.css?v=1.0.23">
+        <link rel="stylesheet" href="./assets/css/section-projects.css?v=1.0.23">
+        <link rel="stylesheet" href="./assets/css/section-services.css?v=1.0.23">
+        <link rel="stylesheet" href="./assets/css/section-advice.css?v=1.0.23">
+        <link rel="stylesheet" href="./assets/css/section-education.css?v=1.0.23">
+        <link rel="stylesheet" href="./assets/css/language-switcher.css?v=1.0.23">
     </head>
     <body>
+       <div class="language-switcher">
+           <button id="lang-pt" class="active">PT</button>
+           <button id="lang-en">EN</button>
+       </div>
        <nav class="nav">
             <ul class="menu-links">
                 <li class="menu-item">
                     <a href="#container-conteudo" class="menu-link">
                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="currentColor" d="M12.581 2.686a1 1 0 0 0-1.162 0l-9.5 6.786l1.162 1.627L12 4.73l8.919 6.37l1.162-1.627zm7 10l-7-5a1 1 0 0 0-1.162 0l-7 5a1 1 0 0 0-.42.814V20a1 1 0 0 0 1 1h14a1 1 0 0 0 1-1v-6.5a1 1 0 0 0-.418-.814M6 19v-4.985l6-4.286l6 4.286V19z"/></svg>
-                        <span class="tooltip">Home</span>
+                        <span class="tooltip" data-i18n="home">Home</span>
                     </a>
                 </li>
                 <li class="menu-item">
                     <a href="#section-projects" class="menu-link">
                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="currentColor" d="M4 5v14h16V7h-8.414l-2-2zm8.414 0H21a1 1 0 0 1 1 1v14a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h7.414z"/></svg>
-                        <span class="tooltip">Projects</span>
+                        <span class="tooltip" data-i18n="projects">Projects</span>
                     </a>
                 </li>
                 <li class="menu-item">
-                    <a href="#section-experiences" class="menu-link">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 32 32"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M29 17v11H3V17M2 8h28v8s-6 4-14 4s-14-4-14-4zm14 14v-4m4-10s0-4-4-4s-4 4-4 4"/></svg>
-                        <span class="tooltip">Experiences</span>
+                    <a href="#section-services" class="menu-link">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="currentColor" d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2m0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8m0-13c-2.76 0-5 2.24-5 5s2.24 5 5 5 5-2.24 5-5-2.24-5-5-5z"/></svg>
+                        <span class="tooltip" data-i18n="servicesTitle">Services</span>
                     </a>
                 </li>
                 <li class="menu-item">
                     <a href="#section-education" class="menu-link">
                         <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 16 16"><path fill="none" stroke="currentColor" d="M12.5 6v5.5s-2.926 1-4.5 1s-4.5-1-4.5-1V6M14 5L8 2.5L2 5l6 3zm0 0v4.5" stroke-width="1"/></svg>
-                        <span class="tooltip">Education</span>
+                        <span class="tooltip" data-i18n="education">Education</span>
                     </a>
                 </li>
                 <li class="menu-item">
                     <a href="#container-contato" class="menu-link">
                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="currentColor" d="M22 6c0-1.1-.9-2-2-2H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2zm-2 0l-8 5l-8-5zm0 12H4V8l8 5l8-5z"/></svg>
-                        <span class="tooltip">Contact</span>
+                        <span class="tooltip" data-i18n="contact">Contact</span>
                     </a>
                 </li>
             </ul>  
@@ -62,11 +68,11 @@
                 <div id="container-pessoa-conteudo">
                     <div id="title-subtitle">
                         <h2 class="title-1 text-centered">Pierre Brito</h2>
-                        <p class="subtitle text-centered">
-                            Software Engineer
+                        <p class="subtitle text-centered" data-i18n="softwareEngineer">
+                            Analista de Sistemas
                         </p>
                     </div>
-                    <p class="text text-centered" id="description">
+                    <p class="text text-centered" id="description" data-i18n="description">
                         Driven by <span class="text-emphasis">curiosity</span>, powered by technology, and built for impact.
                     </p>
                 </div>
@@ -83,40 +89,24 @@
                 </div>
             </div>
             <div>
-                <div id="section-home" class="section">
-                    <div>
-                        <h2 class="title-section-1">Software</h2>
-                        <h3 class="title-section-2">Engineer</h3>
-                    </div>
-                    <p id="text-description" class="text-shy">
-                        With a deep curiosity for technology and a strong problem-solving mindset, I craft scalable and efficient solutions that transform ideas into impactful digital experiences.
-                    </p>
-                    <div id="container-metrics">
-                        <div class="metric">
-                            <p class="metric-value">+2</p>
-                            <h4 class="text-shy">years of experience</h4>   
-                        </div>
-                        <div class="metric">
-                            <p class="metric-value">+5</p>
-                            <h4 class="text-shy">projects</h4>   
-                        </div>
-                    </div>
-                </div>
                 <div id="section-projects" class="section">
                     <div>
-                        <h2 class="title-section-1">Recent</h2>
-                        <h3 class="title-section-2">Projects</h3>
+                        <h2 class="title-section-1" data-i18n="recentProjects">Recent</h2>
+                        <h3 class="title-section-2" data-i18n="recentProjectsTitle">Projects</h3>
                     </div>
                     <div id="container-projects">
                         <ul class="projects">
                             <li>
-                                <a class="project" href="https://alumni-92398.bubbleapps.io/version-test/login" target="_blank">
-                                    <img src="./assets/img/gtig-wt-back.png" alt="Hootzpá" class="project-image">
+                                <a class="project" href="https://telemedy.com.br" target="_blank">
+                                    <img src="./assets/img/telemedy-wt-back.png" alt="Telemedy" class="project-image">
                                     <div class="project-content">
-                                        <h4 class="project-title">GTIG Alumni</h4>
-                                        <p class="project-description">Developed an Alumni platform inspired by LinkedIn, connecting graduates, and facilitating career opportunities.</p>
+                                        <h4 class="project-title" data-i18n="gtigAlumni">Telemedy</h4>
+                                        <p class="project-description" data-i18n="gtigAlumniDesc">Telemedy is a healthtech platform designed to streamline remote healthcare through integrated telemedicine tools, digital prescriptions, and AI-driven clinical management.</p>
                                         <ul class="technologies">
                                             <li class="technology">Bubble</li>
+                                             <li class="technology">N8N</li>
+                                            <li class="technology">JavaScript</li>
+                                            <li class="technology">Node</li>
                                         </ul>
                                     </div>
                                     <div class="project-icon">
@@ -125,11 +115,44 @@
                                 </a>            
                             </li>
                             <li>
+                                <a class="project" href="https://ciandt.com" target="_blank">
+                                    <img src="./assets/img/ciandt.png" alt="CI&T" class="project-image">
+                                    <div class="project-content">
+                                        <h4 class="project-title" data-i18n="ciandT">CI&T</h4>
+                                        <p class="project-description" data-i18n="ciandTDesc">Developed microservices with Java, Python, Node.js. Built React features. Implemented tests and Git/CI-CD.</p>
+                                        <ul class="technologies">
+                                            <li class="technology">Java</li>
+                                            <li class="technology">Python</li>
+                                            <li class="technology">Oracle APEX</li>
+                                        </ul>
+                                    </div>
+                                    <div class="project-icon">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 16 16"><path fill="currentColor" d="M6.01 10.49a.47.47 0 0 1-.35-.15c-.2-.2-.2-.51 0-.71l8.49-8.48c.2-.2.51-.2.71 0s.2.51 0 .71l-8.5 8.48c-.1.1-.23.15-.35.15"/><path fill="currentColor" d="M14.5 7c-.28 0-.5-.22-.5-.5V2H9.5c-.28 0-.5-.22-.5-.5s.22-.5.5-.5h5c.28 0 .5.22.5.5v5c0 .28-.22.5-.5.5m-3 8H2.49C1.67 15 1 14.33 1 13.51V4.49C1 3.67 1.67 3 2.49 3H7.5c.28 0 .5.22.5.5s-.22.5-.5.5H2.49a.49.49 0 0 0-.49.49v9.02c0 .27.22.49.49.49h9.01c.27 0 .49-.22.49-.49V8.5c0-.28.22-.5.5-.5s.5.22.5.5v5.01c0 .82-.67 1.49-1.49 1.49"/></svg>
+                                    </div>          
+                                </a>            
+                            </li>
+                            <li>
+                                <a class="project" href="https://ipcms.com.br/landing-page-demo" target="_blank">
+                                    <img src="./assets/img/ipcms-wt-bg.png" alt="Instituto de Perícia Científica" class="project-image">
+                                    <div class="project-content">
+                                        <h4 class="project-title" data-i18n="ipcTitle">Instituto de Perícia Científica</h4>
+                                        <p class="project-description" data-i18n="ipcDesc">Created a complete digital ecosystem with a landing page, blog platform, and marketplace for scientific expertise services, all integrated with a robust backend.</p>
+                                        <ul class="technologies">
+                                            <li class="technology">Wordpress</li>
+                                            <li class="technology">Elementor</li>
+                                        </ul>
+                                    </div>
+                                    <div class="project-icon">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 16 16"><path fill="currentColor" d="M6.01 10.49a.47.47 0 0 1-.35-.15c-.2-.2-.2-.51 0-.71l8.49-8.48c.2-.2.51-.2.71 0s.2.51 0 .71l-8.5 8.48c-.1.1-.23.15-.35.15"/><path fill="currentColor" d="M14.5 7c-.28 0-.5-.22-.5-.5V2H9.5c-.28 0-.5-.22-.5-.5s.22-.5.5-.5h5c.28 0 .5.22.5.5v5c0 .28-.22.5-.5.5m-3 8H2.49C1.67 15 1 14.33 1 13.51V4.49C1 3.67 1.67 3 2.49 3H7.5c.28 0 .5.22.5.5s-.22.5-.5.5H2.49a.49.49 0 0 0-.49.49v9.02c0 .27.22.49.49.49h9.01c.27 0 .49-.22.49-.49V8.5c0-.28.22-.5.5-.5s.5.22.5.5v5.01c0 .82-.67 1.49-1.49 1.49"/></svg>
+                                    </div>          
+                                </a>            
+                            </li>
+                             <li>
                                 <a class="project" href="https://www.hootzpa.com.br/" target="_blank">
                                     <img src="./assets/img/hootzpa-wt-back.png" alt="Hootzpá" class="project-image">
                                     <div class="project-content">
-                                        <h4 class="project-title">Hootzpá</h4>
-                                        <p class="project-description">Developed an institutional website for an AI accelerator, showcasing its mission, services, and innovation.</p>
+                                        <h4 class="project-title" data-i18n="hootzpa">Hootzpá</h4>
+                                        <p class="project-description" data-i18n="hootzpaDesc">Developed an institutional website for an AI accelerator, showcasing its mission, services, and innovation.</p>
                                         <ul class="technologies">
                                             <li class="technology">WebFlow</li>
                                             <li class="technology">CSS</li>
@@ -144,8 +167,8 @@
                                 <a class="project" href="https://gti-rastreamento.netlify.app/" target="_blank">
                                     <img src="./assets/img/gti-wt-back.png" alt="Hootzpá" class="project-image">
                                     <div class="project-content">
-                                        <h4 class="project-title">GTI Sistemas</h4>
-                                        <p class="project-description text-shy">
+                                        <h4 class="project-title" data-i18n="gtiSistemas">GTI Sistemas</h4>
+                                        <p class="project-description text-shy" data-i18n="gtiSistemasDesc">
                                             Developed an institutional website for a tracking company. Built for a responsive and user-friendly experience.
                                         </p>
                                         <ul class="technologies">
@@ -162,88 +185,116 @@
                         </ul>
                     </div>
                 </div>
-                <div id="section-experiences" class="section">
+                <div id="section-services" class="section">
                     <div>
-                        <h2 class="title-section-1">2 years</h2>
-                        <h3 class="title-section-2">Experience</h3>
+                        <h2 class="title-section-1" data-i18n="servicesTitle">Services</h2>
+                        <h3 class="title-section-2" data-i18n="servicesSubtitle">What I Offer</h3>
                     </div>
-                    <ul class="projects">
-                        <li>
-                            <a class="project" href="https://ciandt.com/br/pt-br/home" target="_blank">
-                                <div class="project-content">
-                                    <h4 class="project-title">CI&T</h4>
-                                    <p class="project-description" style="max-width: 360px;">As a Software Engineer Intern, I collaborated on real-world projects, gained hands-on coding experience, and improved my problem-solving skills in a professional environment.</p>
-                                    <p class="project-description" style="max-width: 360px;">
-                                        March 2025 - Currently
-                                    </p>
-                                    <ul class="technologies">
-                                        <li class="technology">Waiting...</li>
-                                    </ul> 
-                                </div>    
-                                <div class="project-icon">
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 16 16"><path fill="currentColor" d="M6.01 10.49a.47.47 0 0 1-.35-.15c-.2-.2-.2-.51 0-.71l8.49-8.48c.2-.2.51-.2.71 0s.2.51 0 .71l-8.5 8.48c-.1.1-.23.15-.35.15"/><path fill="currentColor" d="M14.5 7c-.28 0-.5-.22-.5-.5V2H9.5c-.28 0-.5-.22-.5-.5s.22-.5.5-.5h5c.28 0 .5.22.5.5v5c0 .28-.22.5-.5.5m-3 8H2.49C1.67 15 1 14.33 1 13.51V4.49C1 3.67 1.67 3 2.49 3H7.5c.28 0 .5.22.5.5s-.22.5-.5.5H2.49a.49.49 0 0 0-.49.49v9.02c0 .27.22.49.49.49h9.01c.27 0 .49-.22.49-.49V8.5c0-.28.22-.5.5-.5s.5.22.5.5v5.01c0 .82-.67 1.49-1.49 1.49"/></svg>
-                                </div>    
-                            </a>            
-                        </li>
-                        <li>
-                            <a class="project" target="_blank">
-                                <div class="project-content">
-                                    <h4 class="project-title">Freelancing</h4>
-                                    <p class="project-description" style="max-width: 360px;">I have developed integration solutions using Make, Zapier, and N8N. Additionally, I have built websites with Elementor and Webflow, creating modern and responsive designs. I also develop scripts in Python to automate tasks.</p>
-                                    <p class="project-description" style="max-width: 360px;">
-                                        November 2023 - December 2024</p>
-                                    <ul class="technologies">
-                                        <li class="technology">Make</li>
-                                        <li class="technology">N8N</li>
-                                        <li class="technology">Zapier</li>
-                                        <li class="technology">Elementor</li>
-                                        <li class="technology">Webflow</li>
-                                    </ul>
-                                </div>    
-                                <div class="project-icon">
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 16 16"><path fill="currentColor" d="M6.01 10.49a.47.47 0 0 1-.35-.15c-.2-.2-.2-.51 0-.71l8.49-8.48c.2-.2.51-.2.71 0s.2.51 0 .71l-8.5 8.48c-.1.1-.23.15-.35.15"/><path fill="currentColor" d="M14.5 7c-.28 0-.5-.22-.5-.5V2H9.5c-.28 0-.5-.22-.5-.5s.22-.5.5-.5h5c.28 0 .5.22.5.5v5c0 .28-.22.5-.5.5m-3 8H2.49C1.67 15 1 14.33 1 13.51V4.49C1 3.67 1.67 3 2.49 3H7.5c.28 0 .5.22.5.5s-.22.5-.5.5H2.49a.49.49 0 0 0-.49.49v9.02c0 .27.22.49.49.49h9.01c.27 0 .49-.22.49-.49V8.5c0-.28.22-.5.5-.5s.5.22.5.5v5.01c0 .82-.67 1.49-1.49 1.49"/></svg>
-                                </div>     
-                            </a>            
-                        </li>
-                    </ul>
+                    <div id="container-services">
+                        <ul class="projects services-list">
+                            <li>
+                                <div class="service">
+                                    <div class="service-icon">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24"><path fill="currentColor" d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2m0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8m3.5-9c.83 0 1.5-.67 1.5-1.5S16.33 8 15.5 8 14 8.67 14 9.5s.67 1.5 1.5 1.5zm-7 0c.83 0 1.5-.67 1.5-1.5S9.33 8 8.5 8 7 8.67 7 9.5 7.67 11 8.5 11zm3.5 6.5c2.33 0 4.31-1.46 5.11-3.5H6.89c.8 2.04 2.78 3.5 5.11 3.5z"/></svg>
+                                    </div>
+                                    <div class="service-content">
+                                        <h4 class="service-title" data-i18n="sistema">System Development</h4>
+                                        <p class="service-description" data-i18n="sistemaDesc">I build systems that improve efficiency and automate business processes, delivering scalable and reliable results.</p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="service">
+                                    <div class="service-icon">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24"><path fill="currentColor" d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2m0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8m0-13c-2.76 0-5 2.24-5 5s2.24 5 5 5 5-2.24 5-5-2.24-5-5-5z"/></svg>
+                                    </div>
+                                    <div class="service-content">
+                                        <h4 class="service-title" data-i18n="processAutomation">Process Automation</h4>
+                                        <p class="service-description" data-i18n="processAutomationDesc">I automate workflows eliminating repetitive tasks, saving time and reducing errors in your operations.</p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="service">
+                                    <div class="service-icon">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24"><path fill="currentColor" d="M20 2H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h14l4 4V4c0-1.1-.9-2-2-2m-2 12H4V4h14z"/></svg>
+                                    </div>
+                                    <div class="service-content">
+                                        <h4 class="service-title" data-i18n="websites">Websites</h4>
+                                        <p class="service-description" data-i18n="websitesDesc">I develop professional and responsive websites with modern technologies, creating digital solutions tailored to your business needs.</p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="service">
+                                    <div class="service-icon">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24"><path fill="currentColor" d="M21 2H3c-1.1 0-2 .9-2 2v15c0 1.1.9 2 2 2h18l4 4V4c0-1.1-.9-2-2-2m-2 12h-2v2h2v-2zm0-6h-2v2h2V8zm-4 6h-2v2h2v-2zm0-6h-2v2h2V8zM7 8h2v2H7V8zm0 6h2v2H7v-2z"/></svg>
+                                    </div>
+                                    <div class="service-content">
+                                        <h4 class="service-title" data-i18n="support">Support</h4>
+                                        <p class="service-description" data-i18n="supportDesc">I offer continuous technical support, maintenance and improvements to your systems, ensuring optimal performance and permanent updates.</p>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div id="section-advice" class="section">
+                    <div>
+                        <h2 class="title-section-1" data-i18n="software">Software</h2>
+                        <h3 class="title-section-2" data-i18n="engineer">Engineer</h3>
+                    </div>
+                    <p id="text-description" class="text-shy" data-i18n="softwareDescription">
+                        With a deep curiosity for technology and a strong problem-solving mindset, I craft scalable and efficient solutions that transform ideas into impactful digital experiences.
+                    </p>
+                    <div id="container-metrics">
+                        <div class="metric">
+                            <p class="metric-value">+4</p>
+                            <h4 class="text-shy" data-i18n="yearsExperience">years of experience</h4>   
+                        </div>
+                        <div class="metric">
+                            <p class="metric-value">+6</p>
+                            <h4 class="text-shy" data-i18n="projectsCount">projects</h4>   
+                        </div>
+                    </div>
                 </div>
                 <div id="section-education" class="section">
                     <div>
-                        <h2 class="title-section-1">Formal</h2>
-                        <h3 class="title-section-2">Education</h3>
+                        <h2 class="title-section-1" data-i18n="formalEducation">Formal</h2>
+                        <h3 class="title-section-2" data-i18n="educationTitle">Education</h3>
                     </div>
                     <ul class="projects">
                         <li>
                             <a class="project" href="https://www.ufrn.br/" target="_blank">
                                 <div class="project-content">
-                                    <h4 class="project-title">Systems Analysis and Development</h4>
-                                    <p class="project-description" style="max-width: 360px;">
+                                    <h4 class="project-title" data-i18n="systemsAnalysis">Systems Analysis and Development</h4>
+                                    <p class="project-description" style="max-width: 360px;" data-i18n="systemsAnalysisDesc">
                                         Systems analysis and development refers to the process of examining, designing, and 
                                         building information systems to solve problems or improve efficiency. It involves 
                                         understanding user needs, analyzing existing systems, and developing new solutions 
                                         through programming, testing, and implementation to meet specific requirements.
                                     </p>
-                                    <p class="project-description" style="max-width: 360px;">
+                                    <p class="project-description" style="max-width: 360px;" data-i18n="educationDate">
                                         March 2024 - Currently
                                     </p>
-                                    <p class="education-place text-shy">
+                                    <p class="education-place text-shy" data-i18n="ufrn">
                                         Universidade Federal do Rio Grande do Norte
                                     </p>
                                    
                                 </div>    
                             </a>            
                         </li>
-                       
                     </ul>
                 </div>
-                <div id="copyright" class="text-shy text-centered">
-                    &copy; Pierre Brito 2025
+                <div id="copyright" class="text-shy text-centered" data-i18n="copyright">
+                    &copy; Pierre Brito 2026
                 </div>
             <div>
         </main>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css" />
+        <script src="./assets/js/script.js?v=1.0.23"></script>
         
     </body>
 </html>

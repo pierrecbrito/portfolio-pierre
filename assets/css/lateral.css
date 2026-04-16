@@ -1,6 +1,6 @@
 
 #apresentacao-lateral {
-    background-color: rgba(35, 35, 35, 0.22);
+    background-color: rgba(35, 35, 35, 0.38);
     width: 100%;
     max-width: 420px;
     border-radius: 10px 10px 10px 10px;
@@ -14,6 +14,15 @@
     position: sticky;
     left: 0;
     top: 60px;
+}
+
+/* Fixed width for desktop */
+@media (min-width: 1024px) {
+    #apresentacao-lateral {
+        width: 420px;
+        max-width: 420px;
+        flex-shrink: 0;
+    }
 }
 
 #container-foto {
